@@ -168,7 +168,8 @@ int main()
     {
         // Gestion d'erreur si le chargement de la musique échoue
     }
-    music.play();
+    music.setLoop(true);  // Set the music to loop continuously
+    music.play();        // Play the music.
 
 
     while (window.isOpen())
